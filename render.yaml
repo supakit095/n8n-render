@@ -4,10 +4,6 @@ services:
     runtime: docker
     region: singapore
     plan: free
-    disk:
-      name: prometheus-disk
-      mountPath: /var/data
-      sizeGB: 1
   - type: web
     plan: free
     runtime: image
