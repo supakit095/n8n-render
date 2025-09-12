@@ -1,10 +1,5 @@
 services:
   - type: web
-    name: prometheus
-    runtime: docker
-    region: singapore
-    plan: free
-  - type: web
     plan: free
     runtime: image
     region: singapore
